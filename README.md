@@ -1,54 +1,94 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# App
 
-## Get started
+Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+## Rodando os testes
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Para rodar os testes, rode o seguinte comando
 
 ```bash
-npm run reset-project
+  npm run test
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## Uso/Exemplos
 
-To learn more about developing your project with Expo, look at the following resources:
+```javascript
+import Component from 'my-project'
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+function App() {
+  return <Component />
+}
+```
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## Instalação
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Instale my-project com npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de fake@fake.com
+
+
+## Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+
+`API_KEY`
+
+`ANOTHER_API_KEY`
+
+
+## FAQ
+
+#### Questão 1
+
+Resposta 1
+
+#### Questão 2
+
+Resposta 2
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://link-para-o-projeto
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+
 ## Screenshots
 
-![App Screenshot]([App Screenshot](![Captura de tela 2024-12-03 191033](https://github.com/user-attachments/assets/bef8d387-6339-491b-b188-f4b6089c7d2f)
-))
+![App Screenshot](![Captura de tela 2024-12-03 191033](https://github.com/user-attachments/assets/bef8d387-6339-491b-b188-f4b6089c7d2f)
+)
+
+
+
